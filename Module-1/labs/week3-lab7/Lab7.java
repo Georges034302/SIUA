@@ -1,4 +1,4 @@
- /**
+/**
  * Lab 7 - Patterns, Process, RegEx
  * 
  * Write your code inside each method exerciseN
@@ -155,7 +155,7 @@ public class Lab7{
             int ten = rest/10;
             int unit = rest%10;
             String word = "";
-            
+
             if(hundred > 0)
                 word += ones[hundred]+" hundred ";
             if(hundred > 0 && rest > 0)
@@ -166,7 +166,7 @@ public class Lab7{
                 word = "zero";
             else
                 word += ones[rest];
-                
+
             System.out.println("Word = "+word);    
             System.out.print("Number: ");
             number = in.nextInt(); 
@@ -175,12 +175,12 @@ public class Lab7{
 
     public static void exercise8(){
         String s = "Welcome to Java Programming. Java is used for Desktop, Web, IoT, Microservices software applications";
-        
+
         String regex = "[A-Z]";
-        
+
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(s);
-        
+
         int count = 0;
         while(m.find()) count++;
         System.out.println("Number of matches = "+count);
@@ -188,29 +188,65 @@ public class Lab7{
 
     public static void exercise9(){
         String s = "This tutorial is helpful to understand RegEx."+
-        " The tutor explained theRegEx concepts. Tutor ‘George’ "+
-        "discussed the RegEx special characters and wild cards in this tutorial";
-        
+            " The tutor explained theRegEx concepts. Tutor ‘George’ "+
+            "discussed the RegEx special characters and wild cards in this tutorial";
+
         String regex = "\\btutor\\b";
-        
+
         Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
         Matcher m = p.matcher(s);
-        
+
         String replacement = "lecturer";
-        
+
         String r = m.replaceAll(replacement);
-        
+
         System.out.println("Original string: "+s+"\n");
         System.out.println("New string: "+r+"\n");
     }
 
+    private static void login(){
+        String emailRegex = "[a-z]+[.][a-z]+[@][a-z]+[.]com.au";
+        String passwordRegex = "[A-Z][a-zA-Z]{5,}\\d{2,}";
+
+        Pattern pEmail = Pattern.compile(emailRegex);
+        Pattern pPassword = Pattern.compile(passwordRegex);
+
+        System.out.print("Email: ");
+        String email = in.nextLine();
+
+        System.out.print("Password: ");
+        String password = in.nextLine();
+
+        Matcher mEmail = pEmail.matcher(email);
+        Matcher mPassword = pPassword.matcher(password);
+
+        if((mEmail.find() && mPassword.find())){
+            System.out.println("Welcome ");
+        }else{
+            System.out.println("Incorrect credentials - please try again! ");
+        }
+    }
+
     public static void exercise10(){
 
+        System.out.print("Command(L/X): ");
+        char choice = in.nextLine().charAt(0);
+        int count = 0;
+        while(choice != 'X'){
+
+            switch (choice){
+                case 'L': {login(); count++;};break;
+
+                default: System.out.println("Unknown command");break;
+            }
+            if(count > 3) break;
+            System.out.print("Command(L/X): ");
+            choice = in.nextLine().charAt(0);
+            
+        }
+        System.out.println("Thank you");
     }
 }
-
-
-
 
 
 
