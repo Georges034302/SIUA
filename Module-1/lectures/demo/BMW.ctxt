@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=BMW
-comment1.params=
-comment1.target=BMW()
-comment2.params=speed\ time
-comment2.target=void\ move(int,\ int)
-comment3.params=
-comment3.target=void\ show()
-numComments=4
