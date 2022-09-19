@@ -178,11 +178,11 @@ public class Lab6{
         int[][] arr = new int[3][3];
         int  x, y, z, determinant = 0;
         
-       Random r = new Random();
+        Random r = new Random();
         for(int i = 0; i < arr.length; i++) {
             for(int j = 0; j < arr[i].length; j++) {
                 arr[i][j] = r.nextInt(10);
-            }		
+            }       
         }
 
         x = (arr[1][1] * arr[2][2]) - (arr[2][1] * arr[1][2]);

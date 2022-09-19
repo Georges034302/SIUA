@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Matrix
+comment0.text=\ generate\ and\ show\ a\ matrix\ of\ size\ n\ x\ n\r\n\ \ values\ of\ the\ matrix\ are\ random\ of\ seed\ 9\r\n\r\n
+comment1.params=size
+comment1.target=int[][]\ twoDArray(int)
+comment2.params=x
+comment2.target=void\ update(int[][])
+comment3.params=x
+comment3.target=void\ showArray(int[][])
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
