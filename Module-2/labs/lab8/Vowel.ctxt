@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Vowel
+comment1.params=
+comment1.target=Vowel()
+comment2.params=sentence
+comment2.target=Vowel(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ readString()
+comment4.params=
+comment4.target=void\ show()
+comment5.params=s
+comment5.target=int\ countVowels(java.lang.String)
+comment6.params=c
+comment6.target=boolean\ isVowel(char)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

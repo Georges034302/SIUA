@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=PaySlip
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=name\ income
+comment2.target=void\ show(java.lang.String,\ double)
+comment3.params=
+comment3.target=java.lang.String\ readName()
+comment4.params=
+comment4.target=double\ readIncome()
+comment5.params=income
+comment5.target=double\ netIncome(double)
+comment6.params=income
+comment6.target=double\ superTax(double)
+comment7.params=income
+comment7.target=double\ tax(double)
+numComments=8

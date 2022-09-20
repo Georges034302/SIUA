@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Binary
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=int\ readNumber()
+comment3.params=number
+comment3.target=java.lang.String\ binary(int)
+comment4.params=sb
+comment4.target=java.lang.StringBuffer\ zeroes(java.lang.StringBuffer)
+numComments=5
