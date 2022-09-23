@@ -5,7 +5,8 @@ public class Bank{
     private Customer aiman;
     private Customer yousif;
     private Customer customer;
-    
+    private Customer[] customers;
+     
     public Bank(){
         rashed = new Customer("Rashed",2000);        
         aiman = new Customer("Aiman",1000);
@@ -17,6 +18,10 @@ public class Bank{
         rashed.deposit(2000);
         aiman.deposit(500);
         yousif.deposit(1000);
+    }
+    
+    private boolean match(Customer another){
+        return rashed.match(another);
     }
    
     private void show(){
