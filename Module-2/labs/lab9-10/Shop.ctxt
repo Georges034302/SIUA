@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Shop
+comment1.params=
+comment1.target=Shop()
+comment2.params=
+comment2.target=void\ sell()
+comment3.params=
+comment3.target=void\ restock()
+comment4.params=
+comment4.target=void\ view()
+comment5.params=
+comment5.target=char\ readChoice()
+comment6.params=
+comment6.target=void\ menu()
+comment7.params=
+comment7.target=void\ help()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

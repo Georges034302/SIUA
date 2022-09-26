@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Triangle
+comment1.params=height\ base
+comment1.target=Triangle(double,\ double)
+comment2.params=
+comment2.target=double\ area()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4
