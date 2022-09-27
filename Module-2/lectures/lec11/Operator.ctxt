@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Operator
+comment1.params=
+comment1.target=Operator()
+comment2.params=
+comment2.target=void\ generate()
+comment3.params=
+comment3.target=void\ find()
+comment4.params=
+comment4.target=int\ readInt()
+comment5.params=
+comment5.target=void\ show()
+comment6.params=
+comment6.target=char\ readChoice()
+comment7.params=
+comment7.target=void\ menu()
+comment8.params=
+comment8.target=void\ help()
+comment9.params=args
+comment9.target=void\ main(java.lang.String[])
+numComments=10
