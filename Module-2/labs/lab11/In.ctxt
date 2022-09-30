@@ -16,4 +16,6 @@ comment4.text=\r\n\ Read\ the\ next\ line\ as\ a\ double.\r\n\r\n\ @return\ the\
 comment5.params=
 comment5.target=char\ nextChar()
 comment5.text=\r\n\ Read\ the\ first\ character\ of\ the\ next\ line\ of\ text.\r\n\r\n\ @return\ the\ character\ that\ was\ read\r\n
-numComments=6
+comment6.params=prompt
+comment6.target=java.lang.String\ readString(java.lang.String)
+numComments=7
