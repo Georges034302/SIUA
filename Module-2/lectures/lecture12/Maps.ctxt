@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Maps
+comment1.params=
+comment1.target=Maps()
+comment2.params=prompt
+comment2.target=int\ readInt(java.lang.String)
+comment3.params=
+comment3.target=void\ populateList()
+comment4.params=
+comment4.target=void\ populateMap()
+comment5.params=list\ target
+comment5.target=int\ frequency(java.util.List,\ int)
+comment6.params=
+comment6.target=void\ mapFrequencies()
+comment7.params=
+comment7.target=void\ showMap()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9

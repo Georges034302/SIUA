@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Sets
+comment1.params=
+comment1.target=Sets()
+comment2.params=prompt
+comment2.target=int\ readInt(java.lang.String)
+comment3.params=
+comment3.target=void\ populateList()
+comment4.params=
+comment4.target=void\ populateSet()
+comment5.params=collection
+comment5.target=void\ show(java.util.Collection)
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
