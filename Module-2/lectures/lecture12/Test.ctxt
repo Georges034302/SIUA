@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Test
+comment1.params=
+comment1.target=Test()
+comment2.params=
+comment2.target=java.util.List\ populate()
+comment3.params=
+comment3.target=java.lang.String\ readName()
+comment4.params=prompt
+comment4.target=int\ readInt(java.lang.String)
+numComments=5
