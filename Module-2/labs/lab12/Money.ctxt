@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Money
+comment1.params=value
+comment1.target=Money(int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3
