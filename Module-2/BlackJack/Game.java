@@ -35,15 +35,6 @@ public class Game{
         show();
     }
 
-    private void play(Player player){
-        if(player.score() <= 21){
-            if(player.score() < dealer.score())
-                return ;
-            else
-                return ;
-        }
-    }
-
     public void play(){   
         System.out.println("Dealing ...");
         if(dealer.playing())
@@ -53,7 +44,6 @@ public class Game{
                 player.play(dealer);                
             }
         }
-        //show();
     }
 
     private char readChoice(String prompt){

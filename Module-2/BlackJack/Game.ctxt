@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Game
+comment1.params=
+comment1.target=Game()
+comment10.params=
+comment10.target=void\ menu()
+comment11.params=
+comment11.target=void\ help()
+comment12.params=args
+comment12.target=void\ main(java.lang.String[])
+comment2.params=prompt
+comment2.target=int\ readInt(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ readName()
+comment4.params=
+comment4.target=void\ register()
+comment5.params=
+comment5.target=void\ start()
+comment6.params=
+comment6.target=void\ play()
+comment7.params=prompt
+comment7.target=char\ readChoice(java.lang.String)
+comment8.params=
+comment8.target=void\ show()
+comment9.params=
+comment9.target=void\ view()
+numComments=13

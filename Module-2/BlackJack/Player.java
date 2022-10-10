@@ -20,7 +20,7 @@ public class Player{
     }
 
     public void setStatus(){
-        if(score() < 21)
+        if(score() <= 21)
             this.status = "Playing";
         if(score() > 21)
             this.status = "Lost";
