@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=User
+comment1.params=ID\ name\ email\ password
+comment1.target=User(int,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=email\ password
+comment2.target=boolean\ login(java.lang.String,\ java.lang.String)
+comment3.params=ID
+comment3.target=boolean\ unqiueID(int)
+comment4.params=email
+comment4.target=boolean\ uniqueEmail(java.lang.String)
+comment5.params=password
+comment5.target=void\ change(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Database
+comment1.params=
+comment1.target=Database()
+comment2.params=ID\ email
+comment2.target=User\ user(int,\ java.lang.String)
+comment3.params=email
+comment3.target=boolean\ matchEmail(java.lang.String)
+comment4.params=password
+comment4.target=boolean\ matchPassword(java.lang.String)
+comment5.params=ID\ name\ email\ password
+comment5.target=void\ register(int,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment6.params=email\ password
+comment6.target=User\ userLogin(java.lang.String,\ java.lang.String)
+comment7.params=email\ password
+comment7.target=void\ login(java.lang.String,\ java.lang.String)
+comment8.params=
+comment8.target=void\ show()
+numComments=9

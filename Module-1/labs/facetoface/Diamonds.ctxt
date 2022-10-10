@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Diamonds
+comment0.text=\ndisplay\ a\ diamond\ of\ stars\ with\ size\ n\ from\ user\ input.\ repeat\ until\ -1\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=int\ readSize()
+comment3.params=size
+comment3.target=void\ showDiamond(int)
+comment4.params=size
+comment4.target=void\ showTop(int)
+comment5.params=size
+comment5.target=void\ showMiddle(int)
+comment6.params=size
+comment6.target=void\ showBottom(int)
+comment7.params=size\ howmany
+comment7.target=void\ showLine(int,\ int)
+comment8.params=item\ howmany
+comment8.target=void\ showItem(java.lang.String,\ int)
+numComments=9

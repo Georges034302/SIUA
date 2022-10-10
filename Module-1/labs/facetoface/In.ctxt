@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=In
+comment1.params=prompt
+comment1.target=int\ readInt(java.lang.String)
+comment2.params=
+comment2.target=int\ nextInt()
+comment3.params=
+comment3.target=char\ nextChar()
+comment4.params=prompt
+comment4.target=char\ nextChar(java.lang.String)
+comment5.params=prompt
+comment5.target=double\ nextDouble(java.lang.String)
+comment6.params=
+comment6.target=double\ nextDouble()
+comment7.params=prompt
+comment7.target=java.lang.String\ nextLine(java.lang.String)
+comment8.params=
+comment8.target=java.lang.String\ nextLine()
+numComments=9
