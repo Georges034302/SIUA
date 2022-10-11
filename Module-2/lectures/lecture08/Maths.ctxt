@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Maths
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=size\ seed
+comment2.target=int[]\ randomArray(int,\ int)
+comment3.params=x
+comment3.target=int\ min(int[])
+comment4.params=x
+comment4.target=int\ max(int[])
+comment5.params=x
+comment5.target=int\ sum(int[])
+comment6.params=x
+comment6.target=double\ average(int[])
+comment7.params=x
+comment7.target=int\ oddCount(int[])
+numComments=8

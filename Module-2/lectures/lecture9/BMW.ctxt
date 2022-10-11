@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=BMW
-comment1.params=
-comment1.target=BMW()
-comment2.params=distance
-comment2.target=void\ move(int)
-numComments=3

@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=Numbers
-comment0.text=\r\nread\ n\ from\ STDIN\ until\ -1\r\nCalculate\ the\ factorial\ of\ n\r\nShow\ the\ factorial\r\n
-comment1.params=n
-comment1.target=int\ factorial(int)
-comment2.params=args
-comment2.target=void\ main(java.lang.String[])
-numComments=3

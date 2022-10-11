@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Mammal
+comment1.params=steps
+comment1.target=void\ walk(int)
+numComments=2
