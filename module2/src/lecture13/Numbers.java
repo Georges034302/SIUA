@@ -6,6 +6,8 @@
 package lecture13;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 
@@ -13,7 +15,7 @@ import java.util.Random;
  *
  * @author George
  */
-public class Numbers {
+public class Numbers implements Comparator<Integer>{
 
     private List<Integer> numbers() {
         List<Integer> numbers = new ArrayList<>();
@@ -31,11 +33,16 @@ public class Numbers {
     }
 
     private void show(List<Integer> numbers) {
-        for (Object n : numbers) {
+        for (Integer n : numbers) {
             System.out.print(n + " ");
         }
         System.out.println();
     }   
+
+    @Override
+    public int compare(Integer o1, Integer o2) {
+        return o2 - o1;
+    }
     
     //functional interface that consumes a string and produces and integer
     interface Convertor{
@@ -74,6 +81,12 @@ public class Numbers {
         convertedlist.forEach(n -> System.out.print(n+" ")); //printing the strings converted back to numbers
         System.out.println();
         
+        Collections.sort(numbers, new Numbers());
+        number.show(numbers);
+        
+        Collections.sort(strings,new SortedString());
+        strings.forEach(s -> System.out.print(s+" "));
+        System.out.println();
     }
 
 }
