@@ -14,6 +14,6 @@ import java.util.Comparator;
 public class UserComparator implements Comparator<User>{
     @Override
     public int compare(User o1, User o2) {
-        return o1.getID() - o2.getID();
+        return o2.getID() - o1.getID();
     }    
 }
