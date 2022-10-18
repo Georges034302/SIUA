@@ -1,29 +1,33 @@
 package lecture14;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Random;
+import java.util.TreeMap;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
+
 /**
  *
  * @author George
  */
 public class Test {
+
     public static void main(String[] args) {
         
-        
-//        String s = "Java Streaming is Fun";
+//        String s = "Java Streget(1)aming is Fun";
 //        
 //        List<Character> characters = s.chars()
 //                                      .mapToObj(c -> (char)c)
 //                                      .collect(Collectors.toList());
 //        
 //        characters.forEach(c -> System.out.println(c+" "));
-       
-        
 //        IntStream stream = IntStream.rangeClosed(1, 10);    
 //        
 //        List<Integer> numbers = stream.boxed().collect(Collectors.toList());        
@@ -32,8 +36,6 @@ public class Test {
 //                .sorted()
 //                .limit(4)
 //                .forEach(System.out::println);
-        
-        
 //          List<String> words = Arrays.asList("Welcome","to", "Java", "streams");
 //          
 //          Pattern regex = Pattern.compile("^[A-Z]");
@@ -43,8 +45,6 @@ public class Test {
 //                                    .collect(Collectors.toList());
 //          
 //          upper.forEach(System.out::println);
-          
-          
 //        Stream<Integer> stream1 = Stream.iterate(1, x -> x+1).limit(20);
 //        
 //        stream1.filter(x -> x%2 ==0)
@@ -59,25 +59,19 @@ public class Test {
 //        List<Integer> stream3 = Stream.iterate(1, x -> x+2)
 //                                        .limit(30)
 //                                        .collect(Collectors.toList());
-        
 //        stream3.parallelStream()
 //                .filter(x -> x%2 ==0)
 //                .limit(5)
 //                .forEach(x -> System.out.println(x+ " "));
-        
 //        List<Integer> stream = new Random().ints(5, 100)
 //                                            .limit(10)
 //                                            .boxed()
 //                                            .collect(Collectors.toList());
-        
 //        
 //        List<Double> doubles = stream.limit(10)
 //                                     .filter(x -> x > 0.4)
 //                                     .skip(2)
 //                                     .filter(x -> x < 0.9)
 //                                     .collect(Collectors.toList());
-        
-        
-        
     }
 }

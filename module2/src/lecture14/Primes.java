@@ -28,12 +28,6 @@ public class Primes {
     private int sum(List<Integer> list){
         return list.stream().reduce(0, (x , y) -> x+y);
     }
-    /*
-        int sum = 0;
-        for(Intger n: list)
-            sum+= n
-    
-    */
     
     private int count(List<Integer> list){
         return (int)list.stream().filter(x -> isPrime(x)).count();

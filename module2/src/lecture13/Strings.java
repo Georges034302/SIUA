@@ -7,6 +7,7 @@ package lecture13;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -15,11 +16,12 @@ import java.util.List;
  */
 public class Strings {
     static List<String> strings(){
-        return new ArrayList<>(Arrays.asList("Lambda","referencing","is","fun"));
+        return new ArrayList<>(Arrays.asList("Java","8", "Lambda","referencing","is","fun"));
     }  
     
     static void show(String s){
-        System.out.println(s);       
+        System.out.print(s+" ");       
+        
     }
     
     void view(String s){
@@ -30,14 +32,17 @@ public class Strings {
         Strings strings = new Strings();
         
         List<String> list = strings();  
-        
-        list.forEach(s -> System.out.println(s)); //using lambda
-        System.out.println();
-        list.forEach(System.out::println); //using method referencing
-        System.out.println();
+//        
+//        list.forEach(s -> System.out.println(s)); //using lambda
+//        System.out.println();
+//        list.forEach(System.out::println); //using method referencing
+//        System.out.println();
         
         list.forEach(Strings::show); //static referencing
-        list.forEach(strings::view); //object referencing 
+        //list.forEach(strings::view); //object referencing 
+        System.out.println();
+        Collections.rotate(list, 2);
+        list.forEach(Strings::show); 
 
     }
 }
