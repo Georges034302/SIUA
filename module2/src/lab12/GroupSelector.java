@@ -15,9 +15,9 @@ public class GroupSelector{
         students.add("Fraidon");
         students.add("Mahdi");
         students.add("Micheal");
-        students.add("Mikayla");
+        //students.add("Mikayla");
         students.add("Maryam");  
-        students.add("Muhunthan"); 
+        //students.add("Muhunthan"); 
         students.add("Priyanka");
         students.add("Ramya");
         students.add("Rashed");
