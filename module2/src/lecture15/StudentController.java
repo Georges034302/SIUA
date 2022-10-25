@@ -22,7 +22,7 @@ public class StudentController {
     public StudentController(){}
     
     public void updateList(List<Student> list){
-        this.students = list;
+        this.students.addAll(list);
     }
     
     public void register(){
