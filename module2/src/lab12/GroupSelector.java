@@ -20,12 +20,13 @@ public class GroupSelector{
         students.add("Muhunthan"); 
         students.add("Priyanka");
         students.add("Ramya");
-        students.add("Rashed");
         students.add("Shilpa");
         students.add("Shylaja");
         students.add("Sumitra");
         students.add("Yousif");
         students.add("Zaki");
+        //students.add("Rashed");
+        students.add("George");
         return students;
     }
 
