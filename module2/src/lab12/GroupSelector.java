@@ -25,8 +25,7 @@ public class GroupSelector{
         students.add("Sumitra");
         students.add("Yousif");
         students.add("Zaki");
-        //students.add("Rashed");
-        students.add("George");
+        students.add("Rashed");
         return students;
     }
 
