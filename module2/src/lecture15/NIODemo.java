@@ -8,6 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.nio.file.Files;
 import java.nio.file.StandardOpenOption;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 /**
  *
@@ -17,14 +19,18 @@ public class NIODemo {
     public static void main(String[] args) throws IOException {
         Path filePath = Paths.get("D:\\GitHub\\SIUA\\module2\\files\\test.txt");
         
-        List<String> words = new ArrayList(Arrays.asList("NIO", "JAVA","JDK8"));
+        List<String> words = new ArrayList(Arrays.asList("JAVA","JDK8","NIO"));
         
-        Files.write(filePath, words,StandardOpenOption.APPEND);
+        Files.write(filePath, words,StandardOpenOption.CREATE,StandardOpenOption.APPEND);
         
         List<String> temp = Files.readAllLines(filePath);
         
-        temp.forEach(System.out::println);
+//      List<String> temp = Files.lines(filePath)
+//                               .map(String::toLowerCase)
+//                               .collect(Collectors.toList());
         
+        temp.forEach(System.out::println);
+
     }
     
 }
