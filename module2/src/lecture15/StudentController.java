@@ -63,6 +63,4 @@ public class StudentController {
     public void show(){
         students.forEach(System.out::println);
     }   
-    
-    
 }
