@@ -1,4 +1,4 @@
-import lab08.In;
+package lab12;
 import java.util.*;
 
 public class GroupSelector{
