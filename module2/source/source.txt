@@ -1,0 +1,3 @@
+Java NIO is cool
+Also Streaming is fun
+Threading tomorrow will be interesting
