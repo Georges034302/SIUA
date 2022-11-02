@@ -159,9 +159,7 @@ public class Bank {
             return temp;
         } catch (FileNotFoundException ex) {
             Logger.getLogger(Bank.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IOException ex) {
-            Logger.getLogger(Bank.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (ClassNotFoundException ex) {
+        } catch (IOException | ClassNotFoundException ex) {
             Logger.getLogger(Bank.class.getName()).log(Level.SEVERE, null, ex);
         } finally {
             try {
