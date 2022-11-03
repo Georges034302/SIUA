@@ -8,6 +8,8 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 /**
@@ -31,19 +33,19 @@ public class Task implements Callable<List<Integer>> {
 
         List<Future<List<Integer>>> futures = es.invokeAll(tasks);
 
-//        futures.parallelStream().forEach(f -> {
-//            try {
-//                f.get().parallelStream().forEach(System.out::println);                  
-//            } catch (InterruptedException | ExecutionException ex) {
-//                Logger.getLogger(Task.class.getName()).log(Level.SEVERE, null, ex);
-//            }
-//        });
+        futures.parallelStream().forEach(f -> {
+            try {
+                f.get().parallelStream().forEach(System.out::println);                  
+            } catch (InterruptedException | ExecutionException ex) {
+                Logger.getLogger(Task.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        });
         
-        for(Future<List<Integer>> future: futures){
-            List<Integer> list = future.get();
-            list.forEach(n -> System.out.println(n+" "));
-            System.out.println("-----------------------");
-        }
+//        for(Future<List<Integer>> future: futures){
+//            List<Integer> list = future.get();
+//            list.forEach(n -> System.out.println(n+" "));
+//            System.out.println("-----------------------");
+//        }
         
         es.shutdown();
     }
