@@ -38,7 +38,7 @@ public class LmbdaExecutor {
         return Executors.newFixedThreadPool(size);
     }
     
-    static void execute(List<Runnable> tasks, ScheduledExecutorService es){
+    static void execute(List<Runnable> tasks, ScheduledExecutorService es) {
         long delay = 1000;
         int i = 1;
         for(Runnable task:tasks){
@@ -57,8 +57,8 @@ public class LmbdaExecutor {
     
     public static void main(String[] args) {
         List<Runnable> tasks = tasks(3);
-        ExecutorService es = service(3);
-        execute(tasks, es);
+//        ExecutorService es = service(3);
+//        execute(tasks, es);
         
         
         ScheduledExecutorService ses = service();
