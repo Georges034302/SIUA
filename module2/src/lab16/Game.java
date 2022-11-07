@@ -115,21 +115,11 @@ public class Game {
     
     private List<Runnable> writeTasks(int size) {
         List<Runnable> tasks = new ArrayList<>();
-        //        index = 0;
-        //        for (int i = 0; i < size; i++) {   
-        //            index = 0;
-        //            tasks.add(new Thread(() -> {               
-        //                play();
-        //                save(index+1);
-        //                index++;
-        //            }));
-        //            
-        //        }
         tasks.addAll(Stream.iterate(1, x -> x + 1).limit(3)
                 .map(x -> new Thread(() -> {            
-            play();
-            save(x);
-        }))
+                                                play();
+                                                save(x);
+                                            }))
                 .collect(Collectors.toList())
         );
         return tasks;
@@ -141,19 +131,10 @@ public class Game {
     
     private List<Runnable> readTasks(int size) {
         List<Runnable> tasks = new ArrayList<>();
-//        index = 0;
-//        for (int i = 0; i < size; i++) {
-//            index = 0;
-//            tasks.add(new Thread(() -> {
-//                show(index + 1);
-//                index++;
-//            }));
-//
-//        }
         tasks.addAll(Stream.iterate(1, x -> x + 1).limit(3)
                 .map(x -> new Thread(() -> {
-            show(x);
-        }))
+                                                show(x);
+                                            }))
                 .collect(Collectors.toList())
         );
         return tasks;
@@ -165,8 +146,7 @@ public class Game {
         for (Runnable task : tasks) {
             es.schedule(task, i * delay, TimeUnit.MILLISECONDS);
             i++;
-        }
-        
+        }        
     }
     
     public static void main(String[] args) {
