@@ -10,8 +10,6 @@ alter table firstdb.players
 add rating decimal(4,2)
 generated always as (score/20) stored;
 
-describe table firstdb.players;
-
 insert into firstdb.players (name,score)
 values ("John Smith",80);
 
